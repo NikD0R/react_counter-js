@@ -25,11 +25,11 @@ export const App = () => {
   };
 
   const increase = () => {
+    addOne();
+
     if (count % 5 === 0) {
       add100();
     }
-
-    addOne();
   };
 
   return (
